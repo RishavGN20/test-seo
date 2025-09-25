@@ -1,6 +1,6 @@
 // app/page.tsx
 import type { Metadata } from "next";
-import { pagesMetadata } from "@/lib/seo/pagesMetaData";
+import { pagesMetadata } from "@/lib/seo/completeSeodata";
 
 const config = pagesMetadata.homePage;
 
@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: config.canonical,
   },
-  twitter: {
-    title: config.title,
-    description: config.description,
-  },
+  // twitter: {
+  //   title: config.title,
+  //   description: config.description,
+  // },
 };
 
 export default function HomePage() {

@@ -12,7 +12,5 @@ export const pagesMetadata = {
     title: "GrowthNatives: AI-Native Growth Agency for Full-Funnel Growth",
     description: "We design, build, and run intelligent systems that scale revenue...",
     canonical: "https://growthnatives.com/",
-     twitterCard: "summary_large_image",
-      twitterAuthor: "Taran Nandha",
   } 
 };
