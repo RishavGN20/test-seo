@@ -10,7 +10,6 @@ export function buildMetadata(config: PageSEOConfig): Metadata {
     canonical,
     twitterCard,
     twitterAuthor,
-    updatedAt,
   } = config;
 
   return {

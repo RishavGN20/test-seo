@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     canonical: config.canonical,
   },
   twitter: {
-    card: config.twitterCard,
-    creator: config.twitterAuthor,
-  } as Metadata["twitter"],
-}; 
+    title: config.title,
+    description: config.description,
+  },
+};
 
 export default function HomePage() {
   return (
